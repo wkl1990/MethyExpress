@@ -1,0 +1,15 @@
+Package: MethyExpress
+Title: Methylation and expression correlation analysis, prediction and visualization.
+Version: 0.0.0.9000
+Authors@R: person("Kangli", "Wang", email = "wangkangli@sklmg.edu.cn", role = c("aut", "cre"))
+Description: Methylation and expression correlation analysis, prediction and visualization.
+Depends: R (>= 3.3.3)
+License: Artistic-2.0
+Encoding: UTF-8
+LazyData: true
+Imports:
+        MyPackage
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
